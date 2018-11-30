@@ -8,24 +8,3 @@
 body {
   background-color: $white;
 }
-
-.svg-container {
-  font-size: 0.1rem;
-  position: relative;
-}
-
-.wing-container {
-  width: em(277.29);
-  @include svg-padding(277.29, 367.13);
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.body-container {
-  width: em(552.2);
-  @include svg-padding(552.2, 498.12);
-  position: absolute;
-  top: -1.5em;
-  left: -1.7em;
-}

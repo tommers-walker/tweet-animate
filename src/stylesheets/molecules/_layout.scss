@@ -7,3 +7,25 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.svg-container {
+  width: 0.75rem;
+  @include svg-padding(612, 497.12);
+  position: relative;
+}
+
+.wing-container {
+  width: percentage(276.76/612);
+  @include svg-padding(276.76, 365.76);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.body-container {
+  width: percentage(612/612);
+  @include svg-padding(612, 497.12);
+  position: absolute;
+  top: -4.5%;
+  left: -4.75%;
+}
